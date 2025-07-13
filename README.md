@@ -1,63 +1,57 @@
 
 
 
-# 🧠 GenAI Smart Research Summarizer
+# 🧠 GenAI Smart Assistant for Research Summarization
 
-An AI-powered assistant to read, understand, summarize, and quiz you on uploaded documents (PDF/TXT). Built for the EZ Works GenAI Internship Assignment.
-
----
-
-## 🔧 Features
-
-- 📄 **Document Upload** (PDF or TXT)
-- ✍️ **Auto Summary** in ≤150 words
-- 💬 **Ask Anything Mode** — free-form Q&A
-- 🎯 **Challenge Me Mode** — generates logic-based questions and evaluates your answers
-- 🧠 Runs locally using Hugging Face models (no API keys required)
+An AI-powered assistant that reads, understands, summarizes, and quizzes you on uploaded documents. Built as part of the **EZ Works GenAI Internship Assignment**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 Objective
 
-- Python 🐍
-- Streamlit 🖼️
-- HuggingFace Transformers 🤗
-- pdfminer.six (PDF parsing)
+Develop an AI assistant that goes beyond keyword matching — capable of deep contextual understanding, inference, and reasoning. It supports free-form Q&A and logic-based question generation based on uploaded PDF or TXT documents.
+
+---
+
+## 🚨 Problem Statement
+
+Traditional summarizers often miss nuance. This project addresses that by providing a smart assistant that can:
+
+- 💬 Answer comprehension and inference-based questions  
+- 🎯 Generate and evaluate logic-based challenge questions  
+- 🧾 Justify each response using direct references from the document
+
+---
+
+## 🧩 Features
+
+- 📂 **Document Upload** (PDF/TXT support)  
+- ✍️ **Auto Summary** (≤150 words) immediately after upload  
+- 💬 **Ask Anything Mode** — contextual Q&A with citations  
+- 🎯 **Challenge Me Mode** — logic-based question generation + answer evaluation  
+- 🔒 Local-first: no API keys needed (Ollama + HuggingFace based)
+
+---
+
+## 🛠 Tech Stack
+
+- Python  
+- Gradio (UI)  
+- Hugging Face Transformers (Q&A + Summarization)  
+- Ollama (LLaMA3) for local LLMs  
+- pdfminer.six (PDF parsing)  
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/genai-summarizer.git
-cd genai-summarizer
-# 🧠 GenAI Smart Research Summarizer
+git clone https://github.com/abhaytrivedi05/EZ_Project.git
+cd EZ_Project
 
-An AI-powered assistant to read, understand, summarize, and quiz you on uploaded documents (PDF/TXT). Built for the EZ Works GenAI Internship Assignment.
 
----
-
-## 🔧 Features
-
-- 📄 **Document Upload** (PDF or TXT)
-- ✍️ **Auto Summary** in ≤150 words
-- 💬 **Ask Anything Mode** — free-form Q&A
-- 🎯 **Challenge Me Mode** — generates logic-based questions and evaluates your answers
-- 🧠 Runs locally using Hugging Face models (no API keys required)
-
----
-
-## 🛠️ Tech Stack
-
-- Python 🐍
-- Streamlit 🖼️
-- HuggingFace Transformers 🤗
-- pdfminer.six (PDF parsing)
-
----
-
-Devloped  by  your  truly Founder  and  creator  of  AryaVerse  Himanshu  Jayprakash  Singh
+Devloped  by  Abhay Trivedi
 
 #get  started
 take  a  moment to give  a Star(*)  to  the  repo  really  appreciated    thanks............
@@ -66,6 +60,5 @@ take  a  moment to give  a Star(*)  to  the  repo  really  appreciated    thanks
 3->make  the  virtual  environment
 4->run the  pip  install  -r  requirements.txt
 5->streamlit run app.py       and  you  are  all  set
-
-#best  regards    
+  
 
