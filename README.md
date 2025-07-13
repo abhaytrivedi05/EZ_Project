@@ -1,7 +1,7 @@
 
 
 
-# 🧠 GenAI Smart Assistant for Research Summarization
+# 🧠 Smart Assistant for Research Summarization
 
 An AI-powered assistant that reads, understands, summarizes, and quizzes you on uploaded documents. Built as part of the **EZ Works GenAI Internship Assignment**.
 
@@ -36,10 +36,9 @@ Traditional summarizers often miss nuance. This project addresses that by provid
 ## 🛠 Tech Stack
 
 - Python  
-- Gradio (UI)  
+- Streamlit (UI)  
 - Hugging Face Transformers (Q&A + Summarization)  
-- Ollama (LLaMA3) for local LLMs  
-- pdfminer.six (PDF parsing)  
+- Ollama (LLaMA3) for local LLMs    
 
 ---
 
@@ -51,10 +50,10 @@ git clone https://github.com/abhaytrivedi05/EZ_Project.git
 cd EZ_Project
 
 
-Devloped  by  Abhay Trivedi
+Developed  by  Abhay Trivedi
 
 #get  started
-take  a  moment to give  a Star(*)  to  the  repo  really  appreciated    thanks............
+
 1->clone  the  repo
 2->go inside  directory
 3->make  the  virtual  environment
